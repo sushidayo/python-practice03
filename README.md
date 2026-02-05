@@ -11,3 +11,19 @@ for ss in s.split():
 s = 'りんご,みかん,ぶどう'
 for ss in s.split(',', 1):
     print(ss)
+
+s = 'しんぶんはんばい'
+n = s.find('ん')
+print(s*n)
+
+n = s.find('ん',2,5)
+
+n = s.find('あ')
+
+s = 'しんぶんはんばい'
+result = 'ん' in s
+print(result)
+
+s = 'しんぶんはんばい'
+n = s.count('ん')
+print(n)
