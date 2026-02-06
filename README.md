@@ -27,3 +27,26 @@ print(result)
 s = 'しんぶんはんばい'
 n = s.count('ん')
 print(n)
+
+s1 = '   abc   '
+s2 = s1.strip()
+print(s1)
+
+s1 = ',,,,abc,,,'
+s2 = s1.strip(',')
+print(s1)
+
+str(123)
+str(True)
+str(['a','b','c'])
+
+s = '  りんご  '
+l = len (s)
+print(s)
+
+s = ' りんご みかん '
+s2 = s[2:6]
+print(s)
+
+for ss in 'こんにちは':
+    print(ss)
